@@ -1,0 +1,8 @@
+# JavaScript, etc.
+build/
+node_modules/
+.eslintcache
+
+# Misc
+.DS_Store
+.vscode/
