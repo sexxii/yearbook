@@ -4,8 +4,10 @@ import { Heading2 } from '../../components/Typography/Heading2';
 import { Body } from '../../components/Typography/Body';
 import { text as DerekLetter } from './Letters/derek';
 import { text as DanLetter } from './Letters/dan';
+import { text as VictoriaLetter } from './Letters/victoria';
 import DerekImage from './images/drayside.png';
 import DanImage from './images/dberry.jpeg';
+import VictoriaImage from './images/vsakhnin.jpeg';
 import { Row } from 'src/components/Grid/Row';
 
 const Wrapper = styled.div`
@@ -32,6 +34,12 @@ export const Messages = () => {
         <ProfilePicture src={DerekImage} />
         <Letter>
           <Body>{DerekLetter}</Body>
+        </Letter>
+      </Row>
+      <Row paddingTop="40px">
+        <ProfilePicture src={VictoriaImage} />
+        <Letter>
+          <Body>{VictoriaLetter}</Body>
         </Letter>
       </Row>
       <Row paddingTop="40px">
