@@ -18,10 +18,6 @@ import { Row } from 'src/components/Grid/Row';
 import { Section } from 'src/components/Grid/Section';
 import { Content } from 'src/components/Grid/Content';
 
-const Wrapper = styled.div`
-  width: 100%;
-`;
-
 const ProfilePicture = styled.img`
   min-width: 200px;
   width: 200px;

@@ -1,9 +1,6 @@
-// export * from './B4035DF9-6C62-4B57-BF96-C3852C82E96B.jpg';
-// export * from './FB_IMG_1505128211746.jpg';
-
-import a from './B4035DF9-6C62-4B57-BF96-C3852C82E96B.jpg';
-import b from './FB_IMG_1505128211746.jpg';
-import c from './FB_IMG_1505128218850.jpg';
+import a from '/src/assets/1A/B4035DF9-6C62-4B57-BF96-C3852C82E96B.jpg';
+import b from '/src/assets/1A/FB_IMG_1505128211746.jpg';
+import c from '/src/assets/1A/FB_IMG_1505128218850.jpg';
 import d from '/src/assets/1A/FB_IMG_1505128225422.jpg';
 import e from '/src/assets/1A/FB_IMG_1505128232751.jpg';
 import f from '/src/assets/1A/FB_IMG_1505128239314.jpg';

@@ -8,7 +8,7 @@ const Wrapper = styled.div`
   width: 80%;
   min-height: 100%;
   margin: 0px auto;
-  padding: 12% 0;
+  padding: 12% 0 0 0;
 `;
 
 type Props = {

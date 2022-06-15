@@ -2,10 +2,10 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Wrapper = styled.p`
-  font-family: 'Poppins', sans-serif;
-  font-weight: 400;
+  line-height: 1.8;
   font-size: 18px;
-  line-height: 27px;
+  font-weight: 300;
+  color: rgba(71, 71, 71, 0.9);
 `;
 
 type Props = {
