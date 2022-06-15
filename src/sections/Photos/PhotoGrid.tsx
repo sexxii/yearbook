@@ -9,8 +9,6 @@ import { BallTriangle } from 'react-loader-spinner';
 
 import shuffle from 'lodash/shuffle';
 
-import * as APhotos from 'src/assets/1A';
-
 type Props = {
   title: string;
   photos: { [key: string]: string };

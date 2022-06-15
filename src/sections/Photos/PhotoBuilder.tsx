@@ -7,6 +7,10 @@ import * as B1Photos from 'src/assets/1B';
 import * as WKT1Photos from 'src/assets/WKT1';
 import * as A2Photos from 'src/assets/2A';
 import * as WKT2Photos from 'src/assets/WKT2';
+import * as B2Photos from 'src/assets/2B';
+import * as WKT3Photos from 'src/assets/WKT3';
+import * as A3Photos from 'src/assets/3A';
+import * as WKT4Photos from 'src/assets/WKT4';
 
 const sections = [
   {
@@ -28,6 +32,22 @@ const sections = [
   {
     title: 'WKT2. Winter 2019',
     photos: WKT2Photos,
+  },
+  {
+    title: '2B. Summer 2019',
+    photos: B2Photos,
+  },
+  {
+    title: 'WKT3. Fall 2019',
+    photos: WKT3Photos,
+  },
+  {
+    title: '3A. Winter 2020',
+    photos: A3Photos,
+  },
+  {
+    title: 'WKT4. Summer 2020',
+    photos: WKT4Photos,
   },
 ];
 
