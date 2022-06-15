@@ -2,10 +2,13 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Wrapper = styled.h1`
-  font-family: 'Poppins', sans-serif;
   font-style: italic;
-  font-weight: 400;
-  font-size: 26px;
+  font-family: 'Source Code Pro', monospace;
+  font-weight: 600;
+  font-size: 1.5vw;
+  letter-spacing: -1px;
+  line-height: 1.4;
+  color: rgba(71, 71, 71, 0.85);
 `;
 
 type Props = {
