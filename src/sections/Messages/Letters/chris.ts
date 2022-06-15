@@ -6,5 +6,5 @@ Your class will always have a special place in my heart. Together we experienced
 
 I wish you nothing but success and happiness in the next phases of your life. I encourage you to remain intellectually curious and to keep an open mind to new ideas. You never know when an idea or concept might prove useful even when its utility isn't immediately obvious. You will face many problems in the future, but you have the skills and the tenacity to solve them. I look forward to hearing about your adventures. Stay in touch.
 
-Chris
+Chris Nielsen
 MATH 213 & SE 380 Professor`;

@@ -27,5 +27,5 @@ The Angles are coming
 Don't Blink!
 Good Luck.
 
-Peter
+Peter Buhr
 CS 343 Professor`;
