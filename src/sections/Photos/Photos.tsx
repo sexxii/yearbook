@@ -9,7 +9,7 @@ import shuffle from 'lodash/shuffle';
 
 // import * as APhotos from '../../assets/1A';
 
-import * as APhotos from '../../assets/1A';
+import * as APhotos from 'src/assets/1A';
 import { useFormatImages } from './useFormatImages';
 
 const Wrapper = styled.div`
@@ -86,7 +86,11 @@ export const Photos = ({ title }: Props) => {
   return (
     <Wrapper>
       <Heading2>{title}</Heading2>
-      {loading ? 'Loading...' : <Gallery photos={valueA} />}
+      {loading ? (
+        'Loading...'
+      ) : (
+        <Gallery photos={valueA} targetRowHeight={200} />
+      )}
     </Wrapper>
   );
 };
