@@ -7,6 +7,7 @@ const Wrapper = styled.h2`
   font-size: 48px;
   letter-spacing: -2px;
   margin-bottom: 32px;
+  width: 100%;
   &:before {
     content: '>';
     position: absolute;

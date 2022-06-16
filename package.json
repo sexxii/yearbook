@@ -40,15 +40,21 @@
     "webpack-dev-server": "^3.11.2"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.1.1",
+    "@fortawesome/free-brands-svg-icons": "^6.1.1",
+    "@fortawesome/free-solid-svg-icons": "^6.1.1",
+    "@fortawesome/react-fontawesome": "^0.1.18",
     "@hot-loader/react-dom": "^17.0.1",
     "@types/lodash": "^4.14.181",
     "@types/styled-components": "^5.1.24",
+    "add": "^2.0.6",
     "lodash": "^4.17.21",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-hot-loader": "^4.13.0",
     "react-loader-spinner": "^5.1.5",
     "react-photo-gallery": "^8.0.0",
-    "styled-components": "^5.3.3"
+    "styled-components": "^5.3.3",
+    "yarn": "^1.22.19"
   }
 }

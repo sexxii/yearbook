@@ -8,9 +8,11 @@ import { CenterAlign } from 'src/components/Grid/CenterAlign';
 import { BallTriangle } from 'react-loader-spinner';
 
 import shuffle from 'lodash/shuffle';
+import { Memory } from 'src/components/Typography/Memory';
 
 type Props = {
   title: string;
+  quotes?: string[];
   photos: { [key: string]: string };
 };
 
@@ -31,13 +33,21 @@ async function formatImages(photos: { [key: string]: string }) {
   return shuffle(formattedPhotos);
 }
 
+function formatQuotes(quotes: string[]) {
+  const formattedQuotes: JSX.Element[] = [];
+  quotes.forEach((quote) => {
+    formattedQuotes.push(<Memory>{quote}</Memory>);
+  });
+  return formattedQuotes;
+}
+
 type FormattedPhoto = {
   src: string;
   width: number;
   height: number;
 };
 
-export const PhotoGrid = ({ title, photos }: Props) => {
+export const PhotoGrid = ({ title, quotes = [], photos }: Props) => {
   const [loading, setLoading] = useState(true);
   const [valueA, setValueA] = useState<FormattedPhoto[]>([]);
 
@@ -57,10 +67,13 @@ export const PhotoGrid = ({ title, photos }: Props) => {
     getA();
   }, []);
 
+  const quoteElements = formatQuotes(quotes);
+
   return (
     <Section bgColor="#f3f3f3">
       <Content>
         <Heading2>{title}</Heading2>
+        {quoteElements}
         {loading ? (
           <CenterAlign>
             <BallTriangle
