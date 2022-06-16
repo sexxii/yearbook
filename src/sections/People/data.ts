@@ -118,8 +118,9 @@ export const SEPeople = [
     name: 'Ravindu Angammana',
     image: RavinduAngammana,
     quote: '',
-    contact:
-      'ravindu.angammana@gmail.com, https://www.linkedin.com/in/ravindu-angammana/',
+    contact: 'ravindu-angammana',
+    link: 'https://www.linkedin.com/in/ravindu-angammana/',
+    linkedIn: true,
     location: 'Toronto',
   },
   {
@@ -249,8 +250,9 @@ export const SEPeople = [
     name: 'Abhishek Dhakla',
     image: AbhishekDhakla,
     quote: 'Tomatoes are a fruit!',
-    contact:
-      'abhishekdhakla@gmail.com | https://www.linkedin.com/in/abhishek-dhakla/',
+    contact: 'abhishek-dhakla',
+    link: 'https://www.linkedin.com/in/abhishek-dhakla/',
+    linkedIn: true,
     location: 'Vancouver',
   },
   {
@@ -466,7 +468,9 @@ export const SEPeople = [
     image: AngeloLao,
     quote:
       "I'm very glad that the lack of OOP friendship was accounted for by a different kind of class friendship <3 Hope to see y'all soon!",
-    contact: 'www.facebook.com/angelo.lao.90 ; www.linkedin.com/in/angelo-lao',
+    contact: 'angelo-lao',
+    link: 'https://www.linkedin.com/in/angelo-lao',
+    linkedIn: true,
     location: 'Toronto',
   },
   {
@@ -566,8 +570,8 @@ export const SEPeople = [
     name: 'Heather Musson',
     image: HeatherMusson,
     quote: 'I promise this is the last time I bother you about the yearbook',
-    contact: 'heather-m-004517122',
-    link: 'https://www.linkedin.com/in/heather-m-004517122/',
+    contact: 'heather-musson',
+    link: 'https://www.linkedin.com/in/heather-musson',
     linkedIn: true,
     location: 'Seattle, WA',
   },
@@ -681,8 +685,9 @@ export const SEPeople = [
     image: YeliangShou,
     quote:
       'Hello friends, SE was a fun time and I think we all met some pretty cool people. Let’s stay in touch!',
-    contact:
-      'https://www.linkedin.com/in/yeliang-shou/, yeliang.shou@gmail.com',
+    contact: 'yeliang-shou',
+    link: 'https://www.linkedin.com/in/yeliang-shou/',
+    linkedIn: true,
     location: 'New York',
   },
   {
@@ -708,7 +713,9 @@ export const SEPeople = [
     name: 'Joseph Tafese',
     image: JosephTafese,
     quote: `"Simplicity & Elegance take hard work to achieve and education to be appreciated" - Dijkstra ' - Derek Rayside (1A)`,
-    contact: 'https://www.linkedin.com/in/jetafese, j.tafese@aol.com',
+    contact: 'jetafese',
+    link: 'https://www.linkedin.com/in/jetafese',
+    linkedIn: true,
     location: 'Doing a PhD in Formal Verification @ uWaterloo',
   },
   {
@@ -885,6 +892,7 @@ export const SEPeople = [
     image: RobbieZhuang,
     quote: '',
     contact: 'facebook.com/robbie.zhuang',
+    link: 'https://facebook.com/robbie.zhuang',
     location: 'SF & Seattle',
   },
 ];
