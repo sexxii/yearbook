@@ -1,11 +1,8 @@
-import React, { useEffect, useState } from 'react';
-import Gallery from 'react-photo-gallery';
+import React from 'react';
 
 import { Heading2 } from '../../components/Typography/Heading2';
 import { Section } from 'src/components/Grid/Section';
 import { Content } from 'src/components/Grid/Content';
-import { CenterAlign } from 'src/components/Grid/CenterAlign';
-import { BallTriangle } from 'react-loader-spinner';
 import ImageGallery from 'react-image-gallery';
 import shuffle from 'lodash/shuffle';
 import { Memory } from 'src/components/Typography/Memory';
