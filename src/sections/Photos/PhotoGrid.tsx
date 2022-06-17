@@ -6,7 +6,7 @@ import { Section } from 'src/components/Grid/Section';
 import { Content } from 'src/components/Grid/Content';
 import { CenterAlign } from 'src/components/Grid/CenterAlign';
 import { BallTriangle } from 'react-loader-spinner';
-
+import ImageGallery from 'react-image-gallery';
 import shuffle from 'lodash/shuffle';
 import { Memory } from 'src/components/Typography/Memory';
 
@@ -16,17 +16,12 @@ type Props = {
   photos: { [key: string]: string };
 };
 
-async function formatImages(photos: { [key: string]: string }) {
+function formatImages(photos: { [key: string]: string }) {
   const formattedPhotos = [];
-  for (const [k, src] of Object.entries(photos)) {
-    const img = new Image();
-    img.src = src;
-    await img.decode();
-
+  for (const src of Object.values(photos)) {
     formattedPhotos.push({
-      src: src,
-      width: img.width,
-      height: img.height,
+      original: src,
+      thumbnail: src,
     });
   }
 
@@ -41,31 +36,8 @@ function formatQuotes(quotes: string[]) {
   return formattedQuotes;
 }
 
-type FormattedPhoto = {
-  src: string;
-  width: number;
-  height: number;
-};
-
 export const PhotoGrid = ({ title, quotes = [], photos }: Props) => {
-  const [loading, setLoading] = useState(true);
-  const [valueA, setValueA] = useState<FormattedPhoto[]>([]);
-
-  async function getA() {
-    try {
-      setLoading(true);
-      const responseA = await formatImages(photos);
-      setValueA(responseA);
-    } catch (e) {
-      console.log(e);
-    } finally {
-      setLoading(false);
-    }
-  }
-
-  useEffect(() => {
-    getA();
-  }, []);
+  const formattedPhotos = formatImages(photos);
 
   const quoteElements = formatQuotes(quotes);
 
@@ -74,18 +46,7 @@ export const PhotoGrid = ({ title, quotes = [], photos }: Props) => {
       <Content>
         <Heading2>{title}</Heading2>
         {quoteElements}
-        {loading ? (
-          <CenterAlign>
-            <BallTriangle
-              height="200"
-              width="200"
-              color="grey"
-              ariaLabel="loading"
-            />
-          </CenterAlign>
-        ) : (
-          <Gallery photos={valueA} targetRowHeight={200} />
-        )}
+        <ImageGallery items={formattedPhotos} showNav={false} />
       </Content>
     </Section>
   );

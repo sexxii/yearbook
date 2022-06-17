@@ -11,6 +11,11 @@ const Wrapper = styled.h1`
   color: rgba(71, 71, 71, 0.85);
   padding-left: 32px;
   border-left: 1px solid rgba(71, 71, 71, 0.7);
+  @media (max-width: 800px) {
+    font-size: 16px;
+    border-left: none;
+    padding-left: 0;
+  }
 `;
 
 type Props = {

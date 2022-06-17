@@ -12,7 +12,7 @@ export const App = () => {
       <Title />
       <Messages />
       <People />
-      {/* <PhotoBuilder /> */}
+      <PhotoBuilder />
       <ThankYou />
     </>
   );

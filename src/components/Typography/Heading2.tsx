@@ -8,6 +8,9 @@ const Wrapper = styled.h2`
   letter-spacing: -2px;
   margin-bottom: 32px;
   width: 100%;
+  @media (max-width: 800px) {
+    font-size: 36px;
+  }
   &:before {
     content: '>';
     position: absolute;
