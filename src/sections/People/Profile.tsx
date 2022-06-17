@@ -63,11 +63,6 @@ const IconContainer = styled.div`
   width: 20px;
 `;
 
-const LocationIcon = styled.div`
-  padding-left: 3.76px;
-  padding-right: 9px;
-`;
-
 const Text = styled.p`
   font-size: 16px;
 `;

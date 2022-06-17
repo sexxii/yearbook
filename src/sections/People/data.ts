@@ -309,7 +309,7 @@ export const SEPeople = [
   {
     name: 'Alexandra Girard',
     image: AlexandraGirard,
-    quote: '',
+    quote: 'that’s how programmers turn a 5 hour task into a 5 year task',
     contact: 'alexandra-girard',
     link: 'https://www.linkedin.com/in/alexandra-girard/',
     location: 'San Francisco',
