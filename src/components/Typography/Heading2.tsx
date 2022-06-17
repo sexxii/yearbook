@@ -16,6 +16,9 @@ const Wrapper = styled.h2`
     font-size: 36px;
     padding-top: 6px;
     opacity: 0.5;
+    @media (max-width: 800px) {
+      padding-right: 10px;
+    }
   }
 `;
 

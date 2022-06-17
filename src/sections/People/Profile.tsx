@@ -11,8 +11,11 @@ import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 const Wrapper = styled.div`
   width: 23%;
   margin-bottom: 16px;
-  @media (max-width: 800px) {
+  @media (max-width: 1000px) {
     display: block;
+    width: 48%;
+  }
+  @media (max-width: 500px) {
     width: 100%;
   }
 `;

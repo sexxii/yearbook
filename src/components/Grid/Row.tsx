@@ -7,6 +7,9 @@ const Wrapper = styled.div<{ paddingTop: string }>`
   align-items: flex-start;
   padding-top: ${(props) => props.paddingTop};
   padding-bottom: 14px;
+  @media (max-width: 800px) {
+    flex-wrap: wrap;
+  }
 `;
 
 type Props = {
