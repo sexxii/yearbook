@@ -68,6 +68,8 @@ import bo from '/src/assets/4B/PXL_20220405_034332902.jpeg';
 import bp from '/src/assets/4B/received_501910071355682.jpeg';
 import bq from '/src/assets/4B/Screen_Shot_2022-01-05_at_5.31.41_PM.png';
 import br from '/src/assets/4B/WeChat Image_2022033118323719.jpg';
+import bs from '/src/assets/4B/IMG_9190_Original.jpg';
+import bt from '/src/assets/4B/IMG_5483.jpeg';
 
 export {
   a,
@@ -140,4 +142,6 @@ export {
   bp,
   bq,
   br,
+  bs,
+  bt,
 };

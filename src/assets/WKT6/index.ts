@@ -52,6 +52,7 @@ import bj from '/src/assets/WKT6/santa_con_1.jpeg';
 import bk from '/src/assets/WKT6/santa_con_2.jpeg';
 import bl from '/src/assets/WKT6/santa_con_3.jpeg';
 import bm from '/src/assets/WKT6/WechatIMG1542.jpeg';
+import bn from '/src/assets/WKT6/IMG_3142.jpg';
 
 export {
   a,
@@ -108,4 +109,5 @@ export {
   bk,
   bl,
   bm,
+  bn,
 };
