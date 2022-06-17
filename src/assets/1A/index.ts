@@ -27,6 +27,7 @@ import z from 'src/assets/1A/local_hack_day.jpeg';
 import aa from 'src/assets/1A/received_1286287204813495.jpg';
 import ab from 'src/assets/1A/Screen Shot 2022-03-30 at 2.54.36 AM.png';
 import ac from 'src/assets/1A/WeChat Image_202203311832379.jpg';
+import ad from 'src/assets/1A/2b8c6a81-9871-40c4-9c03-f6b3fc5a6556.jpg';
 
 export {
   a,
@@ -58,4 +59,5 @@ export {
   aa,
   ab,
   ac,
+  ad,
 };
