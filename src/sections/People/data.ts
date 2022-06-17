@@ -309,9 +309,10 @@ export const SEPeople = [
   {
     name: 'Alexandra Girard',
     image: AlexandraGirard,
-    quote: 'that’s how programmers turn a 5 hour task into a 5 year task',
+    quote: 'That’s how programmers turn a 5 hour task into a 5 year task',
     contact: 'alexandra-girard',
     link: 'https://www.linkedin.com/in/alexandra-girard/',
+    linkedIn: true,
     location: 'San Francisco',
   },
   {
@@ -550,7 +551,8 @@ export const SEPeople = [
   {
     name: 'Amanda Morin',
     image: AmandaMorin,
-    quote: 'i am tired',
+    quote:
+      "Thanks for the best possible 5 years of sleep deprivation! Can't wait for our next adventures",
     contact: 'asmmorin',
     link: 'https://www.linkedin.com/in/asmmorin/',
     linkedIn: true,
@@ -906,12 +908,13 @@ export const NonSEPeople = [
     location: 'New York',
   },
   {
-    name: 'Derek Yin',
-    image: DerekYin,
-    quote: '',
-    contact: 'derekyin5@gmail.com',
-    link: 'mailto:derekyin5@gmail.com',
-    location: 'NYC',
+    name: 'Sterling Finn',
+    image: SterlingFinn,
+    quote: 'Do what makes you happy',
+    contact: 'sterling-f-4257ba126/',
+    link: 'https://www.linkedin.com/in/sterling-f-4257ba126/',
+    linkedIn: true,
+    location: '',
   },
   {
     name: 'Bob Wei',
@@ -922,13 +925,12 @@ export const NonSEPeople = [
     location: 'Bay Area',
   },
   {
-    name: 'Sterling Finn',
-    image: SterlingFinn,
-    quote: 'Do what makes you happy',
-    contact: 'sterling-f-4257ba126/',
-    link: 'https://www.linkedin.com/in/sterling-f-4257ba126/',
-    linkedIn: true,
-    location: '',
+    name: 'Derek Yin',
+    image: DerekYin,
+    quote: '',
+    contact: 'derekyin5@gmail.com',
+    link: 'mailto:derekyin5@gmail.com',
+    location: 'NYC',
   },
 ];
 
