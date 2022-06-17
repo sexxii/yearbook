@@ -5,7 +5,6 @@ import { Section } from 'src/components/Grid/Section';
 import { Content } from 'src/components/Grid/Content';
 
 import { Profile } from './Profile';
-import shuffle from 'lodash/shuffle';
 
 import { SEPeople, NonSEPeople } from './data';
 
@@ -29,20 +28,18 @@ export const People = () => {
     />
   ));
 
-  const other = shuffle(
-    NonSEPeople.map((person) => (
-      <Profile
-        key={person.name}
-        name={person.name}
-        image={person.image}
-        quote={person.quote}
-        link={person.link}
-        linkedIn={person.linkedIn}
-        contact={person.contact}
-        location={person.location}
-      />
-    ))
-  );
+  const other = NonSEPeople.map((person) => (
+    <Profile
+      key={person.name}
+      name={person.name}
+      image={person.image}
+      quote={person.quote}
+      link={person.link}
+      linkedIn={person.linkedIn}
+      contact={person.contact}
+      location={person.location}
+    />
+  ));
 
   return (
     <>
