@@ -9,6 +9,9 @@ const Wrapper = styled.h1`
   letter-spacing: -1px;
   line-height: 1.4;
   color: rgba(71, 71, 71, 0.85);
+  @media (max-width: 800px) {
+    font-size: 20px;
+  }
 `;
 
 type Props = {

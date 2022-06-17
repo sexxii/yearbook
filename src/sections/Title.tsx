@@ -17,6 +17,9 @@ const Half = styled.div`
   height: 100vh;
   padding-top: 30vh;
   width: 70%;
+  @media (max-width: 800px) {
+    width: 100%;
+  }
 `;
 
 export const Title = () => {

@@ -9,6 +9,9 @@ const Wrapper = styled.div`
   min-height: 100%;
   margin: 0px auto;
   padding: 12% 0 0 0;
+  @media (max-width: 800px) {
+    padding: 6% 0 0 0;
+  }
 `;
 
 type Props = {

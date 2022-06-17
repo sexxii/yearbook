@@ -19,15 +19,25 @@ import { Section } from 'src/components/Grid/Section';
 import { Content } from 'src/components/Grid/Content';
 
 const ProfilePicture = styled.img`
-  min-width: 200px;
-  width: 200px;
-  object-fit: contain;
+  @media (max-width: 800px) {
+    display: block;
+    width: 100%;
+  }
+  @media (min-width: 800px) {
+    min-width: 200px;
+    width: 200px;
+    object-fit: contain;
+  }
 `;
 
 const Letter = styled.div`
   flex-grow: 1;
   white-space: pre-wrap;
   margin-left: 28px;
+  @media (max-width: 800px) {
+    margin-left: 0;
+    margin-top: 10px;
+  }
 `;
 
 export const Messages = () => {
